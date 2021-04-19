@@ -28,81 +28,81 @@ def game():
             turns = turns -1
             print ('\nNope.')
             print ('\n',turns, 'more turns')
-            if turns == 9: print (' __ __ ')
+            if turns == 9: print ('             __ __ ')
 
-            if turns == 8: print ('   | ')
-            if turns == 8: print ('   | ')
-            if turns == 8: print ('   | ')
-            if turns == 8: print ('   | ')
-            if turns == 8: print (' __|__ ')
+            if turns == 8: print ('''
+               | 
+               |
+               |
+               | 
+             __|__ ''')
 
-            # Вариант одного принта вместо нескольких
-            
-            # if turns == 8: print ('''
-            #                 | 
-            #                 |
-            #                 |
-            #                 | 
-            #               __|__ ''')
+            if turns == 7: print ('''
+               _____ 
+               | 
+               |
+               |
+               | 
+             __|__ ''')
 
-            if turns == 7: print ('   _____ ')
-            if turns == 7: print ('   | ')
-            if turns == 7: print ('   | ')
-            if turns == 7: print ('   | ')
-            if turns == 7: print ('   | ')
-            if turns == 7: print (' __|__ ')
+            if turns == 6: print ('''
+               _____ 
+               |   |
+               |
+               |
+               | 
+             __|__ ''')
 
-            if turns == 6: print ('   _____ ')
-            if turns == 6: print ('   |   |')
-            if turns == 6: print ('   | ')
-            if turns == 6: print ('   | ')
-            if turns == 6: print ('   | ')
-            if turns == 6: print (' __|__ ')
+            if turns == 5: print ('''
+               _____ 
+               |   |
+               |   O
+               |
+               | 
+             __|__ ''')
 
-            if turns == 5: print ('   _____ ')
-            if turns == 5: print ('   |   |')
-            if turns == 5: print ('   |   O')
-            if turns == 5: print ('   | ')
-            if turns == 5: print ('   | ')
-            if turns == 5: print (' __|__ ')
+            if turns == 4: print ('''
+               _____ 
+               |   |
+               |   O
+               |   |
+               | 
+             __|__ ''')
 
-            if turns == 4: print ('   _____ ')
-            if turns == 4: print ('   |   |')
-            if turns == 4: print ('   |   O')
-            if turns == 4: print ('   |   |')
-            if turns == 4: print ('   | ')
-            if turns == 4: print (' __|__ ')
+            if turns == 3: print ('''
+               _____ 
+               |   |
+               |   O
+               |  /|
+               | 
+             __|__ ''')
 
-            if turns == 3: print ('   _____ ')
-            if turns == 3: print ('   |   |')
-            if turns == 3: print ('   |   O')
-            if turns == 3: print ('   |  /|')
-            if turns == 3: print ('   | ')
-            if turns == 3: print (' __|__ ')
+            if turns == 2: print ('''
+               _____ 
+               |   |
+               |   O
+               |  /|\ 
+               | 
+             __|__ ''')
 
-            if turns == 2: print ('   _____ ')
-            if turns == 2: print ('   |   |')
-            if turns == 2: print ('   |   O')
-            if turns == 2: print ('   |  /|\ ')
-            if turns == 2: print ('   | ')
-            if turns == 2: print (' __|__ ')
+            if turns == 1: print ('''
+               _____ 
+               |   |
+               |   O
+               |  /|\ 
+               |  /
+             __|__ ''')
 
-            if turns == 1: print ('   _____ ')
-            if turns == 1: print ('   |   |')
-            if turns == 1: print ('   |   O')
-            if turns == 1: print ('   |  /|\ ')
-            if turns == 1: print ('   |  /')
-            if turns == 1: print (' __|__ ')
-
-            if turns == 0: print ('   _____ ')
-            if turns == 0: print ('   |   |')
-            if turns == 0: print ('   |   O')
-            if turns == 0: print ('   |  /|\ ')
-            if turns == 0: print ('   |  / \ ')
-            if turns == 0: print (' __|__ ')
+            if turns == 0: print ('''
+               _____ 
+               |   |
+               |   O
+               |  /|\ 
+               |  / \ 
+             __|__ ''')
 
             if turns == 0:
-                print ('\n\nThe answer is ', secret)
+                print ('\n\nThe answer is', secret)
 playagain = 'yes'
 while playagain == 'yes': 
     if playagain == 'yes':
