@@ -36,6 +36,8 @@ def game():
             if turns == 8: print ('   | ')
             if turns == 8: print (' __|__ ')
 
+            # Вариант одного принта вместо нескольких
+            
             # if turns == 8: print ('''
             #                 | 
             #                 |
