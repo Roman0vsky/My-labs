@@ -1,0 +1,5 @@
+n = int(input("Введите число "))
+
+my_generator = (i for i in range(n))
+for i in range(n):
+    print('(', next(my_generator), ' ', next(my_generator), ')', end = ', ')
