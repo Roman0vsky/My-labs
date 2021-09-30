@@ -1,7 +1,4 @@
-#Задание 1
-list_1 = ['a', 1, -2, 1.2,]
-list_2 = [x for x in list_1 if type(x) == int and x%2 == 0]
-print(list_2)
+
 
 #Задание 2
 list_3 = list_1[::2]
